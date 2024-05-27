@@ -3,7 +3,7 @@ const { Client, GatewayIntentBits } = require('discord.js');
 const axios = require('axios');
 
 const TOKEN = process.env.TOKEN;
-const SERVER_ID = '75666';
+const SERVER_ID = 'SERVERID';
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
